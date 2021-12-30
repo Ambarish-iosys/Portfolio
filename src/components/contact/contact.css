@@ -24,7 +24,8 @@
 .input-wrapper textarea.input {
     min-height: 200px;
     resize: none;
-    padding-top: 15px;
+    padding-top: 18px !important;
+    line-height:1.4;
 }
 .input-wrapper {
     position: relative;
