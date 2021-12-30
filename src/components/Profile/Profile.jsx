@@ -25,18 +25,18 @@ const Profile = () => {
 
   return (
     <div>
-      <a href="#" className="menu_trigger" onClick={(e)=>NavOpen(e)} aria-hidden={closeNav}>
+      <button className="menu_trigger" onClick={(e)=>NavOpen(e)} aria-hidden={closeNav}>
         <span className="text">Menu</span>
         <span className="hamb">
           <span></span>
           <span></span>
           <span></span>
         </span>
-      </a>
+      </button>
        <div className={`NavOverlay ${navToggle ? 'ActiveNavOverlay':''}`}>
        </div>
        <div className={`side-navbar ${navToggle ? "active openNav" : ""}`}>
-      <a href="#" className="closer" onClick={(e)=>CloseNav(e)}></a>
+      <button href="#" className="closer" onClick={(e)=>CloseNav(e)}></button>
       <div className="nav_in">
         <nav id="nav">
           <h3 className="label">Menu</h3>
@@ -73,7 +73,7 @@ const Profile = () => {
           <div className="border-1"></div>
           <div className="border-2"></div>
           <div className="img_holder">
-            <img src={profile} alt="image" />
+            <img src={profile} alt="Profile"  />
           </div>
           <div className="title_holder">
             <h5>Hi There! I am</h5>
