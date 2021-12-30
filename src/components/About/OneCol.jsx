@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import download from "../../images/download.svg";
+import CV from '../../CV/Ambarish__CV.pdf';
 import downArrow from "../../images/down_arrow.svg";
 import Tabs from "../TabPannel/Tabs";
 import "./one_col.css";
@@ -48,7 +49,7 @@ const OneCol = ({
         </div>
         <div className="about-info-right">
           <div className="download_cv">
-            <Link to="/download" download>
+            <Link to={CV} download="Ambarish_Patil__CV.pdf" target="_blank" title="">
               <span className="icon">
                 <img
                   src={downArrow}

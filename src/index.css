@@ -21,13 +21,15 @@
 }
 
 :root{
-  --color-primary :#987750 ;
+  --color-primary :#33475b ;
   --color-grey: #888888;
 }
 
 h1,h2,h3,h4,h5{
   font-family: Jost,sans-serif;
   font-weight:700;
+  color:#33475b;
+
 }
  img{
    max-width:100%;
@@ -35,7 +37,7 @@ h1,h2,h3,h4,h5{
    vertical-align: middle;
  }
  p{
-   color:#777;
+   color:#33475b;
    font-size: 1.15rem;
    font-family: Jost;
    line-height:1.4;

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import {FaFacebookF,FaTwitter} from "react-icons/fa";
-import {GrInstagram,GrPinterest} from 'react-icons/gr';
+import {AiFillGithub,AiFillCodepenCircle,AiOutlineTwitter} from 'react-icons/ai'
+import {GrInstagram} from 'react-icons/gr';
 import {FaLinkedinIn} from 'react-icons/fa';
-import {Link} from 'react-router-dom'
 import "./profile.css";
 import './typeWriter'
 import profile from "../../images/profile.png";
@@ -55,15 +54,16 @@ const Profile = () => {
        <div className="nav_footer ready">
           <div className="social">
               <ul>
-                <li><Link to="#"><FaFacebookF size={20} /></Link></li> 
-                <li><Link to="#"><FaTwitter size={20}  /></Link></li> 
-                <li><Link to="#"><GrInstagram size={20} /></Link></li> 
-                <li><Link to="#"><GrPinterest size={20}  /></Link></li> 
-                <li><Link to="#"><FaLinkedinIn size={20} /></Link></li> 
+                <li><a rel="noreferrer" href="https://twitter.com/AmbrishPatil13" target="_blank" title="https://twitter.com/AmbrishPatil13"><AiOutlineTwitter size={20} /></a></li> 
+                <li><a rel="noreferrer" href="https://github.com/Ambarish-iosys" target="_blank" title="https://github.com/Ambarish-iosys"><AiFillGithub size={20}  /></a></li> 
+                <li><a rel="noreferrer" target="_blank" title="https://www.instagram.com/__ambrish____patil/" href="https://www.instagram.com/__ambrish____patil/"><GrInstagram size={20} /></a></li> 
+                <li><a rel="noreferrer" target="_blank" title="https://codepen.io/ambarish-iosys" href="https://codepen.io/ambarish-iosys"><AiFillCodepenCircle size={20}  /></a></li> 
+                <li><a  rel="noreferrer" target="_blank" title="https://www.linkedin.com/in/ambarish-patil-2bb550154/" href="https://www.linkedin.com/in/ambarish-patil-2bb550154/"><FaLinkedinIn size={20} /></a></li> 
               </ul>
+             
           </div>
           <div className="copyright">
-              Developed by Ambarish
+              <p>Developed by Ambarish</p>
           </div>
        </div>
       </div>

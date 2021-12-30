@@ -4,6 +4,7 @@ import Intro from "./components/Intro/OneCol";
 import About from "./components/About/OneCol";
 import Contact from "./components/contact/Contact";
 import $ from "../node_modules/jquery/dist/jquery";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 window.addEventListener("scroll", () => {
   if (window.scrollY !== 0) {
@@ -22,6 +23,7 @@ window.addEventListener("scroll", () => {
       .classList.remove("scrolled");
   }
 });
+
 $(document).ready(function(){
   $('#1').show();
   $('.tab-header li span').click(function(e){
@@ -37,6 +39,12 @@ $(document).ready(function(){
     }
     let data_id = $(this).attr('data-tab-id');
     $('#'+data_id).show();
+  });
+  $('.to-top').click(function(){
+    window.scroll({
+      top:0,
+      behavior:'smooth'
+    })
   });
 });
 
@@ -71,6 +79,9 @@ function App() {
             <section className="contact" id="contact">
                 <Contact title="Get in touch" subtitle="contact" 
                 desc="If you have any opportunity relavant to my profile. You can contact me and fill below form I'll replay back shortly." />
+            </section>
+            <section className='footer'>
+                <Footer/>
             </section>
           </div>
           

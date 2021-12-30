@@ -15,7 +15,7 @@ const Tabs = () => {
             </span>
           </li>
           <li>
-            <span data-tab-id="2">Eduction</span>
+            <span data-tab-id="2">Education</span>
           </li>
           <li>
             <span data-tab-id="3">Skills</span>
@@ -91,7 +91,7 @@ const Tabs = () => {
           <div className="skill-right">
             <ProgessBar title="Bootstrap 3" value="80%" />
             <ProgessBar title="Sass" value="75%" />
-            <ProgessBar title="jQuery" value="80%" />
+            <ProgessBar title="jQuery" value="90%" />
           </div>
         </div>
       </div>

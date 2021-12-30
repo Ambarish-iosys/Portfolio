@@ -10,8 +10,8 @@
     display: block;
     border-radius: 1px;
     background-color: rgb(0 0 0 / 0%);
-    border: 1px solid #0003;
-    color: #333;
+    border: 1px solid #33475b6e;
+    color: #33475b;
     font-size: 18px;
     outline: none;
     padding: 0 20px!important;
@@ -32,7 +32,7 @@ input::placeholder,textarea.input::placeholder {
     font-size: 22px;
     line-height: 70px;
     margin: 0;
-    color: #888;
+    color: #33475b;
     z-index: -1;
     display: block;
     max-width: 100%;
@@ -82,6 +82,6 @@ a.fn__link {
     text-decoration: none;
     text-transform: lowercase;
     font-size: 18px;
-    color: #333;
-    border-bottom: 1px solid #0003;
+    color: #33475b;
+    border-bottom: 1px solid #33475b6e;
 }

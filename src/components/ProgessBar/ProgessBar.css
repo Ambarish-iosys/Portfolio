@@ -16,7 +16,7 @@
     display: block;
     bottom: 10px;
     right: 30px;
-    color: var(--mc);
+    color: #33475b;
     background-color: #ffffff0d;
     transition: all 3s cubic-bezier(.165,.84,.44,1);
     transform: translateX(50%);
@@ -42,7 +42,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    background-color: #987750;
+    background-color: #ff7a59;
 }
 
 .progress-bar .progress-bar-item{

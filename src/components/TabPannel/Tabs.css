@@ -2,7 +2,7 @@
 .tabs-section .tab-header span {
     text-decoration: none;
     display: inline-block;
-    color: #333;
+    color: #33475b;
     font-weight: 400;
     font-size: 30px;
     border-bottom: 1px solid #0000;
@@ -33,7 +33,7 @@
     content: "";
     width: 40px;
     height: 2px;
-    background-color: #0003;
+    background-color: #33475b6e;
     position: relative;
     float: right;
     top: 50%;
@@ -43,7 +43,7 @@
     display: none;
 }
 .tabs-section .tab-header span.active {
-    color: #987750;
+    color:#ff7a59;
 }
 .tabs-section{margin-bottom: 4.1rem;float: left;display: block;}
 

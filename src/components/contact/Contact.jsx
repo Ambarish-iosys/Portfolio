@@ -55,6 +55,18 @@ const Contact = ({ title, subtitle, desc }) => {
               <div className="input-wrapper">
                 <input
                   type="text"
+                  name="subject"
+                  className="input"
+                  autoComplete="off"
+                  required
+                  placeholder="Subject*"
+                />
+              </div>
+            </div>
+            <div className="input-item">
+              <div className="input-wrapper">
+                <input
+                  type="text"
                   name="phone"
                   className="input"
                   autoComplete="off"
@@ -79,9 +91,9 @@ const Contact = ({ title, subtitle, desc }) => {
                 <button
                   className="input"
                   id="Send Message"
-                  title="Hire Me"
+                  title="Send Message"
                 >
-                  Hire Me
+                  Send Message
                 </button>
               </div>
             </div>
