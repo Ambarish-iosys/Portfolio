@@ -24,13 +24,13 @@
 .input-wrapper textarea.input {
     min-height: 200px;
     resize: none;
+    padding-top: 15px;
 }
 .input-wrapper {
     position: relative;
 }
 input::placeholder,textarea.input::placeholder {
     font-size: 22px;
-    line-height: 70px;
     margin: 0;
     color: #33475b;
     z-index: -1;

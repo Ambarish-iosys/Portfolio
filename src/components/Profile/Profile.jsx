@@ -55,7 +55,7 @@ const Profile = () => {
           <div className="social">
               <ul>
                 <li><a rel="noreferrer" href="https://twitter.com/AmbrishPatil13" target="_blank" title="https://twitter.com/AmbrishPatil13"><AiOutlineTwitter size={20} /></a></li> 
-                <li><a rel="noreferrer" href="https://github.com/Ambarish-iosys" target="_blank" title="https://github.com/Ambarish-iosys"><AiFillGithub size={20}  /></a></li> 
+                <li><a rel="noreferrer" href="https://github.com/Web-developer-86" target="_blank" title="https://github.com/Web-developer-86"><AiFillGithub size={20}  /></a></li> 
                 <li><a rel="noreferrer" target="_blank" title="https://www.instagram.com/__ambrish____patil/" href="https://www.instagram.com/__ambrish____patil/"><GrInstagram size={20} /></a></li> 
                 <li><a rel="noreferrer" target="_blank" title="https://codepen.io/ambarish-iosys" href="https://codepen.io/ambarish-iosys"><AiFillCodepenCircle size={20}  /></a></li> 
                 <li><a  rel="noreferrer" target="_blank" title="https://www.linkedin.com/in/ambarish-patil-2bb550154/" href="https://www.linkedin.com/in/ambarish-patil-2bb550154/"><FaLinkedinIn size={20} /></a></li> 
@@ -87,7 +87,7 @@ const Profile = () => {
             <a href="#contact">
               <span className="circle"></span>
               <span className="text">
-                I’m available for a freelance job. Hire me
+                 Hire me
               </span>
             </a>
           </div>

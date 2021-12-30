@@ -78,7 +78,7 @@ const Contact = ({ title, subtitle, desc }) => {
             <div className="input-item">
               <div className="input-wrapper">
                 <textarea
-                  type="text-area"
+                  type="textarea"
                   name="message"
                   className="input"
                   autoComplete="off"
