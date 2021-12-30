@@ -4,44 +4,21 @@ import "./Tabs.css";
 
 import ProgessBar from "../ProgessBar/ProgessBar";
 
-// $(document).ready(function(){
-//   $('#1').show();
-//   $('.tab-header li span').click(function(e){
-//     $('.tab-desc').hide();
-//     e.preventDefault();
-//     if($(this).hasClass('active')){
-//       $('.tab-header li a').removeClass('active');
-//       $(this).addClass('active');
-//     }
-//     else{
-//       $('.tab-header li span').removeClass('active');
-//       $(this).addClass('active');
-//     }
-//     let data_id = $(this).attr('data-tab-id');
-//     $('#'+data_id).show();
-//   });
-// });
-
-
 const Tabs = () => {
   return (
     <div className="tabs-section">
       <div className="tab-header">
         <ul>
           <li>
-            <span href="javascript:void(0)" data-tab-id="1" className="active">
+            <span data-tab-id="1" className="active">
               Experience
             </span>
           </li>
           <li>
-            <span href="#" data-tab-id="2">
-            Eduction
-            </span>
+            <span data-tab-id="2">Eduction</span>
           </li>
           <li>
-            <span href="#" data-tab-id="3">
-              Skills
-            </span>
+            <span data-tab-id="3">Skills</span>
           </li>
         </ul>
       </div>
@@ -105,17 +82,16 @@ const Tabs = () => {
       <div className="tab-desc" id="3">
         <div className="skill-container">
           <div className="skill-left">
-          <ProgessBar title="HTML5" value="95%"/>
-          <ProgessBar title="CSS3" value="90%"/>
-          <ProgessBar title="JavaScript" value="80%"/>
-          <ProgessBar title="React.js" value="60%"/>
-          <ProgessBar title="Drupal 8" value="60%"/>
-          
+            <ProgessBar title="HTML5" value="95%" />
+            <ProgessBar title="CSS3" value="90%" />
+            <ProgessBar title="JavaScript" value="80%" />
+            <ProgessBar title="React.js" value="60%" />
+            <ProgessBar title="Drupal 8" value="60%" />
           </div>
           <div className="skill-right">
-          <ProgessBar title="Bootstrap 3" value="80%"/>
-          <ProgessBar title="Sass" value="75%"/>
-          <ProgessBar title="jQuery" value="80%"/>
+            <ProgessBar title="Bootstrap 3" value="80%" />
+            <ProgessBar title="Sass" value="75%" />
+            <ProgessBar title="jQuery" value="80%" />
           </div>
         </div>
       </div>
