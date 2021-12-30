@@ -25,7 +25,7 @@ const Profile = () => {
 
   return (
     <div>
-      <a href="#" className="menu_trigger" onClick={(e)=>NavOpen(e)}>
+      <a href="#" className="menu_trigger" onClick={(e)=>NavOpen(e)} aria-hidden={closeNav}>
         <span className="text">Menu</span>
         <span className="hamb">
           <span></span>

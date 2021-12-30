@@ -5,7 +5,7 @@ import About from "./components/About/OneCol";
 import Contact from "./components/contact/Contact";
 import "./App.css";
 window.addEventListener("scroll", () => {
-  if (window.scrollY != 0) {
+  if (window.scrollY !== 0) {
     document
       .querySelector(".portfolio-left-container")
       .classList.add("scrolled");
