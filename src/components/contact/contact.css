@@ -1,0 +1,87 @@
+
+.input-groups .input-item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.input-wrapper .input {
+    width: 100%;
+    display: block;
+    border-radius: 1px;
+    background-color: rgb(0 0 0 / 0%);
+    border: 1px solid #0003;
+    color: #333;
+    font-size: 18px;
+    outline: none;
+    padding: 0 20px!important;
+    line-height: 70px;
+    height: 70px;
+    letter-spacing: .5px;
+    vertical-align: middle;
+    transition: all .3s ease;
+}
+.input-wrapper textarea.input {
+    min-height: 200px;
+    resize: none;
+}
+.input-wrapper {
+    position: relative;
+}
+input::placeholder,textarea.input::placeholder {
+    font-size: 22px;
+    line-height: 70px;
+    margin: 0;
+    color: #888;
+    z-index: -1;
+    display: block;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    transition: all .15s cubic-bezier(.4,0,.2,1);
+}
+.input-groups  .input-item.half{
+    width: 48%;
+    margin-right: 2%;
+}
+
+.input-groups .input-item.half:nth-child(2) {
+    margin-right: 0;
+    width: 50%;
+}
+button.input {
+    display: block;
+    line-height: 26px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 20px;
+    color: #ddd;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #fff3;
+    cursor: pointer;
+}
+.contact-info{padding-top: 95px;float: left}
+.contact-info p {
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.contact-info h3 {
+    padding: 0;
+    margin: 0 0 58px;
+    font-weight: 400;
+    max-width: 300px;
+    font-size:1.9rem;
+}
+a.fn__link {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #0003;
+}
