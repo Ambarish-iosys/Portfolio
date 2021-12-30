@@ -48,7 +48,7 @@ const OneCol = ({
         </div>
         <div className="about-info-right">
           <div className="download_cv">
-            <Link to="" download>
+            <Link to="/download" download>
               <span className="icon">
                 <img
                   src={downArrow}

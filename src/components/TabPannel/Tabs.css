@@ -1,5 +1,5 @@
 .tabs-section .tab-header{margin-bottom: 2.4rem;}
-.tabs-section .tab-header a {
+.tabs-section .tab-header span {
     text-decoration: none;
     display: inline-block;
     color: #333;
@@ -8,6 +8,7 @@
     border-bottom: 1px solid #0000;
     line-height: 30px;
     padding-top: 4px;
+    cursor: pointer;
 }
 
 .tabs-section .tab-header li {
@@ -41,7 +42,7 @@
 .tabs-section .tab-header li:last-child::after {
     display: none;
 }
-.tabs-section .tab-header a.active {
+.tabs-section .tab-header span.active {
     color: #987750;
 }
 .tabs-section{margin-bottom: 4.1rem;float: left;display: block;}

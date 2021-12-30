@@ -6,7 +6,7 @@ import ProgessBar from "../ProgessBar/ProgessBar";
 
 $(document).ready(function(){
   $('#1').show();
-  $('.tab-header li a').click(function(e){
+  $('.tab-header li span').click(function(e){
     $('.tab-desc').hide();
     e.preventDefault();
     if($(this).hasClass('active')){
@@ -14,7 +14,7 @@ $(document).ready(function(){
       $(this).addClass('active');
     }
     else{
-      $('.tab-header li a').removeClass('active');
+      $('.tab-header li span').removeClass('active');
       $(this).addClass('active');
     }
     let data_id = $(this).attr('data-tab-id');
@@ -34,19 +34,19 @@ const Tabs = () => {
       <div className="tab-header">
         <ul>
           <li>
-            <a href="#" data-tab-id="1" className="active">
+            <span href="javascript:void(0)" data-tab-id="1" className="active">
               Experience
-            </a>
+            </span>
           </li>
           <li>
-            <a href="#" data-tab-id="2">
+            <span href="#" data-tab-id="2">
             Eduction
-            </a>
+            </span>
           </li>
           <li>
-            <a href="#" data-tab-id="3">
+            <span href="#" data-tab-id="3">
               Skills
-            </a>
+            </span>
           </li>
         </ul>
       </div>
