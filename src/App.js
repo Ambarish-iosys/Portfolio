@@ -3,6 +3,7 @@ import Profile from "./components/Profile/Profile";
 import Intro from "./components/Intro/OneCol";
 import About from "./components/About/OneCol";
 import Contact from "./components/contact/Contact";
+import $ from "../node_modules/jquery/dist/jquery";
 import "./App.css";
 window.addEventListener("scroll", () => {
   if (window.scrollY !== 0) {
@@ -21,6 +22,24 @@ window.addEventListener("scroll", () => {
       .classList.remove("scrolled");
   }
 });
+$(document).ready(function(){
+  $('#1').show();
+  $('.tab-header li span').click(function(e){
+    $('.tab-desc').hide();
+    e.preventDefault();
+    if($(this).hasClass('active')){
+      $('.tab-header li a').removeClass('active');
+      $(this).addClass('active');
+    }
+    else{
+      $('.tab-header li span').removeClass('active');
+      $(this).addClass('active');
+    }
+    let data_id = $(this).attr('data-tab-id');
+    $('#'+data_id).show();
+  });
+});
+
 
 function App() {
   return (

@@ -186,6 +186,7 @@
     align-items: center;
     border: none;
     background:transparent;
+    cursor: pointer;
 }
 
 .menu_trigger .hamb span:first-child {
@@ -295,6 +296,7 @@
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
+    cursor: pointer;
 }
 
 .side-navbar .closer:after,

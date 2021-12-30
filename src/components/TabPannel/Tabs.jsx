@@ -1,31 +1,26 @@
 import React from "react";
 import Cards from "../cards/Cards";
 import "./Tabs.css";
-import $ from "../../../node_modules/jquery/dist/jquery";
+
 import ProgessBar from "../ProgessBar/ProgessBar";
 
-$(document).ready(function(){
-  $('#1').show();
-  $('.tab-header li span').click(function(e){
-    $('.tab-desc').hide();
-    e.preventDefault();
-    if($(this).hasClass('active')){
-      $('.tab-header li a').removeClass('active');
-      $(this).addClass('active');
-    }
-    else{
-      $('.tab-header li span').removeClass('active');
-      $(this).addClass('active');
-    }
-    let data_id = $(this).attr('data-tab-id');
-    $('#'+data_id).show();
-   
-  });
-
-
-
- 
-})
+// $(document).ready(function(){
+//   $('#1').show();
+//   $('.tab-header li span').click(function(e){
+//     $('.tab-desc').hide();
+//     e.preventDefault();
+//     if($(this).hasClass('active')){
+//       $('.tab-header li a').removeClass('active');
+//       $(this).addClass('active');
+//     }
+//     else{
+//       $('.tab-header li span').removeClass('active');
+//       $(this).addClass('active');
+//     }
+//     let data_id = $(this).attr('data-tab-id');
+//     $('#'+data_id).show();
+//   });
+// });
 
 
 const Tabs = () => {
