@@ -10,6 +10,7 @@
 }
 .tab-desc .tab-item .card-subtitle {
     display: flex;
+    color:#000;
     margin-bottom: 14px;
 }
 .tab-desc .tab-item .card-subtitle h5 {
@@ -19,6 +20,7 @@
     text-transform: uppercase;
     font-weight: 400;
     line-height: 30px;
+    color:#000;
 }
 .tab-desc .tab-item .card-subtitle span {
     display: block;
@@ -26,7 +28,7 @@
     font-size: 16px;
     line-height: 30px;
     margin: 0 0 0 20px;
-    color: #33475b6e;
+    color: #888;
 }
 .tab-desc .tab-item h3 {
     padding: 0;

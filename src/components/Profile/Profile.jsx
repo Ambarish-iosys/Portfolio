@@ -73,7 +73,7 @@ const Profile = () => {
           <div className="border-1"></div>
           <div className="border-2"></div>
           <div className="img_holder">
-            <img src={profile} alt="Profile"  />
+            <img src={profile} alt="Profile" width="419" height="auto"/>
           </div>
           <div className="title_holder">
             <h5>Hi There! I am</h5>

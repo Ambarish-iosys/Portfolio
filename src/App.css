@@ -8,7 +8,7 @@
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #ff7a59;
+  color: #987750;
   margin: 0 0 54px;
 }
 .one__col .title {
@@ -31,7 +31,7 @@
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #33475b6e;
+  background-color: #0000004d;
   width: 150px;
   left: 0;
 }
@@ -112,7 +112,7 @@ display: flex;
     position: fixed;
     background: #eee;
     padding: 4px 10px;
-    right: 30px;top: 30px;
+    right: 15px;top: 20px;
   }
   #nav ul a{font-size:1.2rem;}
   .side-navbar .closer{right:30px;top:30px;}

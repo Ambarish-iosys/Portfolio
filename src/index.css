@@ -10,6 +10,12 @@
   font-display: swap;
   font-weight:600;
 }
+@font-face {
+  font-family:Jost;
+  src: url(../src/fonts/Jost-Bold.ttf);
+  font-display: swap;
+  font-weight:700;
+}
 *{
   margin: 0;
   font-family: Jost,sans-serif;
@@ -27,8 +33,8 @@
 
 h1,h2,h3,h4,h5{
   font-family: Jost,sans-serif;
-  font-weight:700;
-  color:#33475b;
+  font-weight:600;
+  color:#333;
 
 }
  img{
@@ -37,7 +43,7 @@ h1,h2,h3,h4,h5{
    vertical-align: middle;
  }
  p{
-   color:#33475b;
+   color:#888;
    font-size: 1.15rem;
    font-family: Jost;
    line-height:1.4;

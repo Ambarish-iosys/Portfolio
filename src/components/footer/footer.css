@@ -19,7 +19,7 @@
 .footer-container .top:before {
     content: "";
     position: absolute;
-    background-color: #33475b6e;
+    background-color: #0003;
     top: 0;
     bottom: 0;
 }
@@ -44,7 +44,7 @@
 
 .to-top span {
     display: block;
-    background-color: #33475b6e;
+    background-color: #888;
     width: 1px;
     height: 26px;
     position: absolute;
@@ -87,11 +87,11 @@ section.footer .bottom {
     bottom: -10px;
     top: -10px;
     background-color: transparent;
-    border: 1px solid #33475b6e;
+    border: 1px solid #0003;
     transition: all .3s ease;
 }
 .to-top:hover:after{
-    border-color:#ff7a59;
+    border-color:#987750;
     left: -15px;
     right: -15px;
     top: -15px;

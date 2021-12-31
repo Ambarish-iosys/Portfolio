@@ -1,5 +1,9 @@
 import React from 'react'
 import './footer.css'
+let GetYear = ()=>{
+    let date = new Date();
+    return date.getFullYear();
+}
 const Footer = () => {
     return (
         <div className="footer-container">
@@ -7,7 +11,7 @@ const Footer = () => {
                 <div className="to-top"><span></span></div>
             </div>
             <div className="bottom">
-            <p>Copyright © 2022 All rights reserved.<span>Developed by Ambarish Patil</span></p>
+            <p>Copyright © <GetYear/> All rights reserved.<span>Developed by Ambarish Patil</span></p>
             </div>
         </div>
     )

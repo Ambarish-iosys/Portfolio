@@ -11,7 +11,7 @@
     border-radius: 1px;
     background-color: rgb(0 0 0 / 0%);
     border: 1px solid #33475b6e;
-    color: #33475b;
+    color: #333;
     font-size: 18px;
     outline: none;
     padding: 0 20px!important;
@@ -33,7 +33,7 @@
 input::placeholder,textarea.input::placeholder {
     font-size: 22px;
     margin: 0;
-    color: #33475b;
+    color: #888;
     z-index: -1;
     display: block;
     max-width: 100%;
@@ -58,7 +58,7 @@ button.input {
     padding: 20px;
     color: #ddd;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
