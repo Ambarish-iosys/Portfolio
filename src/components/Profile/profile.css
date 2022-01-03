@@ -260,7 +260,7 @@
     display: block;
 }
 #nav ul a:hover {
-    color:#ff7a59;
+    color:#987750;
 }
 .side-navbar .nav_in {
     position: relative;
@@ -448,5 +448,5 @@
     transition: all .3s ease;
 }
 .side-navbar .social a:hover svg{
-    fill:#ff7a59
+    fill:#987750;
 }
