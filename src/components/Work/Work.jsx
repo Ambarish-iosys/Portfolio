@@ -9,7 +9,7 @@ import Trajanta from "../../images/Trajanta.png";
 import Respimate from "../../images/Respimat.png";
 import squre from "../../images/square2_logo.svg";
 import GEL from "../../images/Gel.png";
-import $ from '../../../node_modules/jquery/dist/jquery'
+
 
 import WorkCard from "../work_card/WorkCard";
 
