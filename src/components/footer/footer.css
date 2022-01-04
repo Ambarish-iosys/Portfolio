@@ -9,6 +9,7 @@
     clear: both;
     z-index: 5;
     margin-top: 6rem;
+    z-index: -1;
 }
 
 .footer-container .top {

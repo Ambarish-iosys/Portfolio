@@ -5,6 +5,7 @@ import About from "./components/About/OneCol";
 import Contact from "./components/contact/Contact";
 import $ from "../node_modules/jquery/dist/jquery";
 import Footer from "./components/footer/Footer";
+import Work from "./components/Work/Work";
 import "./App.css";
 window.addEventListener("scroll", () => {
   if (window.scrollY !== 0) {
@@ -75,6 +76,9 @@ function App() {
                 phone="7406374886"
                 email='ambrishnpatil86@gmail.com'
               />
+            </section>
+            <section id="work">
+              <Work/>
             </section>
             <section className="contact" id="contact">
                 <Contact title="Get in touch" subtitle="contact" 

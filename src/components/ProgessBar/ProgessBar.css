@@ -50,6 +50,7 @@
     float: left;
     clear: both;
     margin-bottom: 17px;
+    z-index:-1;
 }
 
 
