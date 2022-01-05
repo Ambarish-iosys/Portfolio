@@ -20,7 +20,9 @@ const Profile = () => {
       setNavToggle(false);
       
   }
-
+  let OutSide = ()=>{
+    setNavToggle(false);setCloseNav(true);
+  }
 
   return (
     <div>
@@ -41,16 +43,16 @@ const Profile = () => {
           <h3 className="label">Menu</h3>
           <ul>
             <li>
-              <a href="#home" >Home</a>
+              <a href="#home" onClick={OutSide}>Home</a>
             </li>
             <li >
-            <a href="#about">About</a>
+            <a href="#about" onClick={OutSide}>About</a>
             </li>
             <li >
-              <a href="#work">Work</a>
+              <a href="#work" onClick={OutSide}>Work</a>
             </li>
             <li >
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={OutSide}>Contact</a>
             </li>
           </ul>
         </nav>
