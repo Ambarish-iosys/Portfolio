@@ -9,9 +9,10 @@ import Trajanta from "../../images/Trajanta.png";
 import Respimate from "../../images/Respimat.png";
 import squre from "../../images/square2_logo.svg";
 import GEL from "../../images/Gel.png";
-
-
+import Lectrona from "../../images/Lectrona.png"
+import Covid_19 from '../../images/Covid-19.svg'
 import WorkCard from "../work_card/WorkCard";
+import Digital from "../../images/Digital_maxin.svg"
 
 
 const Work = () => {
@@ -67,6 +68,21 @@ const Work = () => {
           work_card_image={GEL}
           work_title="Group Experimental learning"
           LinkTo="https://www.gelcorp.com/"
+        />
+         <WorkCard
+          work_card_image={Lectrona}
+          work_title="Lectrona"
+          LinkTo="https://pro.boehringer-ingelheim.com/funding/"
+        />
+         <WorkCard
+          work_card_image={Covid_19}
+          work_title="Covid-19"
+          LinkTo="https://patient.boehringer-ingelheim.com/this-is-living-today"
+        />
+         <WorkCard
+          work_card_image={Digital}
+          work_title="Digital Magazine"
+          LinkTo="https://boehringer-ingelheim.se/prio/"
         />
       </div>
       <div className="work-container" style={{display:'none'}}>
