@@ -71,7 +71,7 @@ function App() {
                 subtitle="About me"
                 desc="I am professional web developer with  1.5 years of experience. I'm from Karnataka. I'm happy to work on new challanges."
                 name='Ambarish Patil'
-                age='22'
+                age='23'
                 address="Gulbarga, Karnataka"
                 phone="7406374886"
                 email='ambrishnpatil86@gmail.com'
