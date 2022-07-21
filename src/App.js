@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { getCurrentAge } from "./util/GetCurrentAge";
 import Profile from "./components/Profile/Profile";
 import Intro from "./components/Intro/OneCol";
 import About from "./components/About/OneCol";
@@ -69,7 +70,9 @@ function App() {
               <About
                 title="Biography"
                 subtitle="About me"
-                desc="I am professional web developer with  1.5 years of experience. I'm from Karnataka. I'm happy to work on new challanges."
+                desc={`I am professional web developer with ${getCurrentAge(
+                  1998
+                )} years of experience. I'm from Karnataka. I'm happy to work on new challanges.`}
                 name="Ambarish Patil"
                 age="23"
                 address="Gulbarga, Karnataka"
