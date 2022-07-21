@@ -1,8 +1,11 @@
-.tabs-section .tab-header{margin-bottom: 2.4rem;}
+.tabs-section .tab-header {
+    margin-bottom: 2.4rem;
+}
+
 .tabs-section .tab-header span {
     text-decoration: none;
     display: inline-block;
-    color: #333;
+    color: var(--color-primary);
     font-weight: 400;
     font-size: 30px;
     border-bottom: 1px solid #0000;
@@ -16,6 +19,7 @@
     margin: 0 0 10px;
     position: relative;
 }
+
 .tabs-section .tab-header ul {
     margin: 0;
     padding: 0;
@@ -29,23 +33,31 @@
     flex-wrap: wrap;
     list-style-type: none;
 }
+
 .tabs-section .tab-header li:after {
     content: "";
     width: 40px;
     height: 2px;
-    background-color: #0003;
+    background-color: var(--color-border);
     position: relative;
     float: right;
     top: 50%;
     margin: 2px 20px 0;
 }
+
 .tabs-section .tab-header li:last-child::after {
     display: none;
 }
+
 .tabs-section .tab-header span.active {
-    color:#987750;
+    color: var(--color-hover);
 }
-.tabs-section{margin-bottom: 4.1rem;float: left;display: block;}
+
+.tabs-section {
+    margin-bottom: 4.1rem;
+    float: left;
+    display: block;
+}
 
 .tabs-section {
     width: 100%;
@@ -57,11 +69,11 @@
     flex-flow: wrap;
 }
 
-.skill-container > div {
+.skill-container>div {
     width: 49%;
     margin-right: 2%;
 }
 
-.skill-container > div:last-child {
+.skill-container>div:last-child {
     margin: 0;
 }

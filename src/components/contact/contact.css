@@ -1,4 +1,3 @@
-
 .input-groups .input-item {
     width: 100%;
     float: left;
@@ -9,38 +8,47 @@
     width: 100%;
     display: block;
     border-radius: 1px;
-    background-color: rgb(0 0 0 / 0%);
-    border: 1px solid #33475b6e;
-    color: #333;
-    font-size: 18px;
+    border: 1px solid #cbd6e2;
+    color: var(--color-primary);
+    font-size: 22px;
     outline: none;
-    padding: 0 20px!important;
+    padding: 0 20px !important;
     line-height: 70px;
     height: 70px;
     letter-spacing: .5px;
     vertical-align: middle;
     transition: all .3s ease;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
+
 .input-wrapper textarea.input {
     min-height: 200px;
     resize: none;
     padding-top: 18px !important;
-    line-height:1.4;
+    line-height: 1.4;
 }
+
 .input-wrapper {
     position: relative;
 }
-input::placeholder,textarea.input::placeholder {
+
+input::placeholder,
+textarea.input::placeholder {
     font-size: 22px;
     margin: 0;
-    color: #888;
+    color: var(--color-primary);
     z-index: -1;
     display: block;
     max-width: 100%;
     text-overflow: ellipsis;
-    transition: all .15s cubic-bezier(.4,0,.2,1);
+    transition: all .15s cubic-bezier(.4, 0, .2, 1);
 }
-.input-groups  .input-item.half{
+
+.input-groups .input-item.half {
     width: 48%;
     margin-right: 2%;
 }
@@ -49,36 +57,50 @@ input::placeholder,textarea.input::placeholder {
     margin-right: 0;
     width: 50%;
 }
-button.input {
+
+.input-wrapper button.input {
     display: block;
     line-height: 26px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     padding: 20px;
-    color: #ddd;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    border: 2px solid #fff3;
+    border: 2px solid #ff7a59;
     cursor: pointer;
+    background: #ff7a59;
+    color: #fff;
 }
-.contact-info{padding-top: 95px;float: left}
+
+.input-wrapper button.input:hover {
+    background: #ff8f73;
+    border-color: #ff8f73;
+}
+
+.contact-info {
+    padding-top: 95px;
+    float: left
+}
+
 .contact-info p {
     padding: 0;
     font-size: 14px;
     text-transform: uppercase;
     margin: 0 0 10px;
 }
+
 .contact-info h3 {
     padding: 0;
     margin: 0 0 58px;
     font-weight: 400;
     max-width: 300px;
-    font-size:1.9rem;
+    font-size: 1.9rem;
 }
+
 a.fn__link {
     text-decoration: none;
     text-transform: lowercase;

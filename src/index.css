@@ -1,56 +1,69 @@
 @font-face {
-  font-family:Jost;
+  font-family: Jost;
   src: url(../src/fonts/Jost-Regular.ttf);
   font-display: swap;
-  font-weight:400;
+  font-weight: 400;
 }
+
 @font-face {
-  font-family:Jost;
+  font-family: Jost;
   src: url(../src/fonts/Jost-Medium.ttf);
   font-display: swap;
-  font-weight:600;
+  font-weight: 600;
 }
+
 @font-face {
-  font-family:Jost;
+  font-family: Jost;
   src: url(../src/fonts/Jost-Bold.ttf);
   font-display: swap;
-  font-weight:700;
+  font-weight: 700;
 }
-*{
+
+* {
   margin: 0;
-  font-family: Jost,sans-serif;
+  font-family: Jost, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing:border-box;
+  box-sizing: border-box;
   appearance: none;
   scroll-behavior: smooth;
 }
 
-:root{
-  --color-primary :#33475b ;
-  --color-grey: #888888;
+:root {
+  --color-primary: #33475b;
+  --color-secondary: #888888;
+  --color-hover: #ff5c35;
+  --color-border: #425b76;
+  --color-subtitle: #0091ae;
 }
 
-h1,h2,h3,h4,h5{
-  font-family: Jost,sans-serif;
-  font-weight:600;
-  color:#333;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Jost, sans-serif;
+  font-weight: 600;
+  color: var(--color-primary);
 
 }
- img{
-   max-width:100%;
-   width:100%;
-   vertical-align: middle;
- }
- p{
-   color:#888;
-   font-size: 1.15rem;
-   font-family: Jost;
-   line-height:1.4;
- }
- section {
+
+img {
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+p {
+  color: var(--color-primary);
+  font-size: 1.15rem;
+  font-family: Jost;
+  line-height: 1.4;
+}
+
+section {
   display: block;
   float: left;
   clear: both;
-  width:100%;
+  width: 100%;
 }

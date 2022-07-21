@@ -6,7 +6,7 @@ import ProgessBar from "../ProgessBar/ProgessBar";
 
 const Tabs = () => {
   return (
-    <div className="tabs-section">
+    <div className="tabs-section" data-aos="fade-up" data-aos-duration="1000">
       <div className="tab-header">
         <ul>
           <li>

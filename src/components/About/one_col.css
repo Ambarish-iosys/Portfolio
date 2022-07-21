@@ -1,35 +1,44 @@
-
-.about-info .about-info-left{width: 100%;}
-.about-info .about-info-left table,th,tr{
-    border:none;
-    padding:0;
+.about-info .about-info-left {
+    width: 100%;
 }
+
+.about-info .about-info-left table,
+th,
+tr {
+    border: none;
+    padding: 0;
+}
+
 .about-info .about-info-left table {
     table-layout: fixed;
     margin: 0;
     width: 100%;
     text-align: left;
 }
+
 .about-info .about-info-left th:first-child {
     letter-spacing: 1px;
     font-weight: 600;
     text-align: left;
     text-transform: uppercase;
 }
+
 .about-info .about-info-left table th {
     padding: 9px 10px 9px 0;
     font-size: 18px;
     letter-spacing: 0;
-    color: #333;
+    color: var(--color-primary);
     font-weight: 400;
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
 .about-info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4rem;
 }
+
 body.light .resumo_fn_cv_btn a {
     border-color: #0003;
 }
@@ -44,11 +53,11 @@ body.light .resumo_fn_cv_btn a {
     height: 220px;
     text-decoration: none;
     font-size: 18px;
-    color: #888;
+    color: var(--color-subtitle);
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 2px solid #0003;
+    border: 2px solid #dfe3eb;
     transition: .7s ease;
     -webkit-transition: .7s ease;
     -moz-transition: .7s ease;
@@ -56,30 +65,39 @@ body.light .resumo_fn_cv_btn a {
     -o-transition: .7s ease;
 }
 
-span.icon{position: relative;
-margin-bottom: 1rem;
+span.icon {
+    position: relative;
+    margin-bottom: 1rem;
 }
+
 .download_cv a span {
     font-weight: 600;
 }
-.download_cv a span img{
-    transition:.3s ease;
-    -webkit-transition:.3s ease;
-    -moz-transition:.3s ease;
-    -ms-transition:.3s ease;
-    -o-transition:.3s ease;
+
+.download_cv a span img {
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
 }
-span.icon .arrow{
-    width:100%;
+
+span.icon .arrow {
+    width: 100%;
     position: absolute;
     left: 0;
     right: 0;
     top: -12px;
 }
-.download_cv{margin-left: 4.5rem;}
-.download_cv:hover .arrow{
+
+.download_cv {
+    margin-left: 4.5rem;
+}
+
+.download_cv:hover .arrow {
     top: -15px;
 }
-.download_cv a:hover{
-    border-color: #987750;
+
+.download_cv a:hover {
+    border-color: var(--color-border);
 }

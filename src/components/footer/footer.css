@@ -20,18 +20,21 @@
 .footer-container .top:before {
     content: "";
     position: absolute;
-    background-color: #0003;
+    background-color: var(--color-border);
     top: 0;
     bottom: 0;
 }
-.footer-container .top:before{
+
+.footer-container .top:before {
     width: 110px;
     right: 0;
 }
-.footer-container .top:after{
+
+.footer-container .top:after {
     left: 0;
     right: 220px;
 }
+
 .to-top {
     position: absolute;
     width: 21px;
@@ -45,7 +48,7 @@
 
 .to-top span {
     display: block;
-    background-color: #888;
+    background-color: var(--color-border);
     width: 1px;
     height: 26px;
     position: absolute;
@@ -53,7 +56,9 @@
     left: 50%;
     transition: all .3s ease;
 }
-.to-top span:after, .to-top span:before {
+
+.to-top span:after,
+.to-top span:before {
     display: block;
     background-color: inherit;
     width: 14px;
@@ -63,16 +68,17 @@
     top: 1px;
     margin-top: 4px;
 }
+
 .to-top span:before {
     right: -1px;
-    transform: rotate(
--45deg);
+    transform: rotate(-45deg);
 }
+
 .to-top span:after {
     left: -1px;
-    transform: rotate(
-45deg);
+    transform: rotate(45deg);
 }
+
 section.footer {
     width: 100%;
 }
@@ -80,7 +86,8 @@ section.footer {
 section.footer .bottom {
     padding: 3.8rem 12%;
 }
-.to-top:after{
+
+.to-top:after {
     content: "";
     position: absolute;
     left: -10px;
@@ -88,28 +95,36 @@ section.footer .bottom {
     bottom: -10px;
     top: -10px;
     background-color: transparent;
-    border: 1px solid #0003;
+    border: 1px solid var(--color-border);
     transition: all .3s ease;
 }
-.to-top:hover:after{
-    border-color:#987750;
+
+.to-top:hover:after {
+    border-color: var(--color-border);
     left: -15px;
     right: -15px;
     top: -15px;
     bottom: -15px;
 }
+
 section.footer .bottom p span {
     display: block;
 }
-@media(max-width:767px){
-    section.footer .bottom{
+
+@media(max-width:767px) {
+    section.footer .bottom {
         padding: 3rem 5%;
     }
+
     section.footer .top:before {
-    width: 55px;
-}
-section.footer .top:after {
-    right: 130px;
-}
-section.footer .to-top{right: 80px;}
+        width: 55px;
+    }
+
+    section.footer .top:after {
+        right: 130px;
+    }
+
+    section.footer .to-top {
+        right: 80px;
+    }
 }
