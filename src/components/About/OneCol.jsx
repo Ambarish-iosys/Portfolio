@@ -18,7 +18,7 @@ const OneCol = ({
   return (
     <div className="one__col">
       <h3 className="sub-title">{subtitle}</h3>
-      <h3 className="title">{title}</h3>
+      <h2 className="title">{title}</h2>
       <p className="desc">{desc}</p>
       <div className="about-info">
         <div className="about-info-left">
