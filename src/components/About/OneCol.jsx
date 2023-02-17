@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import download from "../../images/download.svg";
-import CV from '../../CV/Ambarish__CV.pdf';
+import CV from "../../CV/Ambarish__CV.pdf";
 import downArrow from "../../images/down_arrow.svg";
 import Tabs from "../TabPannel/Tabs";
 import "./one_col.css";
@@ -49,7 +49,12 @@ const OneCol = ({
         </div>
         <div className="about-info-right">
           <div className="download_cv">
-            <Link to={CV} download="Ambarish_Patil__CV.pdf" target="_blank" title="">
+            <Link
+              to={CV}
+              download="Ambarish_Patil__CV.pdf"
+              target="_self"
+              title="Download CV"
+            >
               <span className="icon">
                 <img
                   src={downArrow}
@@ -57,15 +62,22 @@ const OneCol = ({
                   width={60}
                   height={60}
                   alt="arrow"
+                  title="Download CV"
                 />
-                <img src={download} width={60} height={60} alt="download" />
+                <img
+                  src={download}
+                  width={60}
+                  height={60}
+                  alt="download"
+                  title="Download CV"
+                />
               </span>
               <span>Download CV</span>
             </Link>
           </div>
         </div>
       </div>
-      <Tabs/>
+      <Tabs />
     </div>
   );
 };

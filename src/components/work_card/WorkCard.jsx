@@ -4,7 +4,7 @@ const WorkCard = ({work_card_image,work_title,tech,LinkTo}) => {
     return (
         <div className="work-card">
             <div className="work-card-image">
-                <img src={work_card_image}  alt="Work_image"/>
+                <img src={work_card_image}  alt={work_title} title={work_title} width="100%" height="100%"/>
             </div>
             <a href={LinkTo} className='work-card-detail' title={LinkTo} target="_blank" rel='noreferrer' aria-label={work_title}>
             <div className='work-card-detail-inner'>
