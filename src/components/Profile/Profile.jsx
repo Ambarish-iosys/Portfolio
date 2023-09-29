@@ -6,6 +6,8 @@ import {
 } from "react-icons/ai";
 import { GrInstagram } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
+import { HiMenuAlt1 } from "react-icons/hi";
+import { CgClose } from "react-icons/cg";
 import "./profile.css";
 import "./typeWriter";
 import profile from "../../images/profile.png";
@@ -37,9 +39,7 @@ const Profile = () => {
       >
         <span className="text">Menu</span>
         <span className="hamb">
-          <span></span>
-          <span></span>
-          <span></span>
+         <HiMenuAlt1 size={28} fill="#33475b" />
         </span>
       </button>
       <div
@@ -50,7 +50,9 @@ const Profile = () => {
           href="#"
           className="closer"
           onClick={(e) => CloseNav(e)}
-        ></button>
+        >
+          <CgClose size={30} fill="#33475b" color="#33475b"/>
+        </button>
         <div className="nav_in">
           <nav id="nav">
             <h3 className="label">Menu</h3>

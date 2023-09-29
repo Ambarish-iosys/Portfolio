@@ -62,15 +62,15 @@ function App() {
               <Intro
                 title="Web developer"
                 subtitle="Introduction"
-                desc="Building and maintaining all kinds of websites as well as a mobile application. Manage technical aspects, meet customer requirements."
+                desc="Handling the implementation and upkeep of a variety of websites, while also managing technical aspects and ensuring client requirements are met."
               />
             </section>
             {/* About section */}
-            <section id="about" data-aos="fade-right" data-aos-duration="1000">
+            <section id="about" data-aos="fade-right" data-aos-duration="800">
               <About
                 title="Biography"
                 subtitle="About me"
-                desc={`I am professional web developer with 2.5 years of experience. I'm from Karnataka. I'm happy to work on new challanges.`}
+                desc={`I am professional web developer with 3+ years of experience. I'm from Karnataka. I'm happy to work on new challanges.`}
                 name="Ambarish Patil"
                 age={getCurrentAge(1998)}
                 address="Gulbarga, Karnataka"
@@ -78,14 +78,14 @@ function App() {
                 email="ambrishnpatil86@gmail.com"
               />
             </section>
-            <section id="work" data-aos="fade-left" data-aos-duration="1000">
+            <section id="work" data-aos="fade-right" data-aos-duration="800">
               <Work />
             </section>
             <section
               className="contact"
               id="contact"
               data-aos="fade-right"
-              data-aos-duration="1000"
+              data-aos-duration="800"
             >
               <Contact
                 title="Get in touch"

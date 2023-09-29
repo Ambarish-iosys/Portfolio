@@ -48,7 +48,7 @@
   overflow-x: hidden;
   float: none;
   clear: none;
-  transition: all .5s ease;
+  transition: all .2s ease-in-out;
   background-color: #f5f8fa;
 }
 
@@ -60,7 +60,7 @@
   top: 0;
   bottom: 0;
   border-left: 1px solid #0003;
-  transition: all .5s ease;
+  transition: all .2s ease-in-out;
 
 }
 
@@ -149,7 +149,7 @@
     top: 20px;
     color: #fff;
   }
-
+.hamb path{fill: #ffffff;}
   .menu_trigger .hamb span {
     background: #fff;
   }
@@ -159,12 +159,12 @@
   }
 
   .side-navbar .closer {
-    right: 30px;
+    right: 25px;
     top: 30px;
   }
 
   .side-navbar .nav_in {
-    padding: 100px 5%;
+    padding: 100px 9%;
   }
 
   .one__col .desc {

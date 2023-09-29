@@ -104,7 +104,7 @@ const Contact = ({ title, subtitle, desc }) => {
             <spna>Mail sent successfully</spna>
           </div>
         )}
-        <div className="contact-info" data-aos="fade-left" data-aos-duration="1000">
+        <div className="contact-info" data-aos="fade-right" data-aos-duration="800">
             <div className="info-box">
                 <p>Address</p>
                 <h3>Kalaburagi, Karnataka</h3>

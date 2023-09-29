@@ -48,7 +48,7 @@ const Tabs = () => {
             card_subtitle="Neo Rays Software solution, Banglore"
             card_year=""
             card_body="
-            Building a web application using Java technology such as JSP and JDBC with MySQL server. My role is maintaining databases on the server side and implementing modules.
+            Implementing a web application with a MySQL server utilizing Java technology such as JSP and JDBC. My responsibilities include server-side database maintenance and module implementation.
             "
           />
         </div>
@@ -86,12 +86,13 @@ const Tabs = () => {
             <ProgessBar title="CSS3" value="90%" />
             <ProgessBar title="JavaScript" value="80%" />
             <ProgessBar title="React.js" value="60%" />
-            <ProgessBar title="Drupal 8" value="60%" />
+            <ProgessBar title="Drupal CMS" value="60%" />
           </div>
           <div className="skill-right">
             <ProgessBar title="Bootstrap 3" value="80%" />
             <ProgessBar title="Sass" value="75%" />
             <ProgessBar title="jQuery" value="90%" />
+            <ProgessBar title="Node JS" value="50%" />
           </div>
         </div>
       </div>

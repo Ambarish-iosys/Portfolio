@@ -6,7 +6,6 @@ const ProgessBar = ({title,value}) => {
         <div className='progress-bar'>
             <div className="progress-bar-item">
                 <h3 className='progress-title'>{title}</h3>
-                <span className='progress-perc'>{value}</span>
                 <div className='progress-bg'>
                     <div className='progress-up-bg' style={{width:`${value}`}}></div>
                 </div>
