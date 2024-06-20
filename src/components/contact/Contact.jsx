@@ -1,19 +1,20 @@
-import React,{useRef,useState} from "react";
+import React,{useRef} from "react";
 import emailjs from 'emailjs-com';
 import "./contact.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Contact = ({ title, subtitle, desc }) => {
-  const [response,setResponse] = useState(false);
+
   const form = useRef();
   const sendMail = (e)=>{
     e.preventDefault();
     emailjs.sendForm('service_c9xbzxe','template_h7074hz', form.current, 'user_GkGCOhTXE6ptoKZvh9n9F')
-    .then((result) => {
-        console.log(result.text);
-        setResponse(true);
-    }, (error) => {
-        console.log(error.text);
-        setResponse(false);
+    .then(() => {
+        toast.success('Mail sent successfully',{position:"top-right"})
+    }, () => {
+      toast.error('Faild to sent mail',{position:"top-right"})
     });
     e.target.reset();
   }
@@ -99,11 +100,7 @@ const Contact = ({ title, subtitle, desc }) => {
             </div>
           </div>
         </form>
-        {response && (
-          <div className="response">
-            <spna>Mail sent successfully</spna>
-          </div>
-        )}
+        <ToastContainer />
         <div className="contact-info" data-aos="fade-right" data-aos-duration="800">
             <div className="info-box">
                 <p>Address</p>

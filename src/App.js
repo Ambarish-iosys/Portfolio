@@ -10,6 +10,8 @@ import $ from "../node_modules/jquery/dist/jquery";
 import Footer from "./components/footer/Footer";
 import Work from "./components/Work/Work";
 import "./App.css";
+
+
 window.addEventListener("scroll", () => {
   if (window.scrollY !== 0) {
     document
@@ -66,7 +68,7 @@ function App() {
               />
             </section>
             {/* About section */}
-            <section id="about" data-aos="fade-right" data-aos-duration="800">
+            <section id="about" data-aos="fade-right" data-aos-duration="500">
               <About
                 title="Biography"
                 subtitle="About me"
@@ -78,14 +80,14 @@ function App() {
                 email="ambrishnpatil86@gmail.com"
               />
             </section>
-            <section id="work" data-aos="fade-right" data-aos-duration="800">
+            <section id="work" data-aos="fade-right" data-aos-duration="500">
               <Work />
             </section>
             <section
               className="contact"
               id="contact"
               data-aos="fade-right"
-              data-aos-duration="800"
+              data-aos-duration="500"
             >
               <Contact
                 title="Get in touch"

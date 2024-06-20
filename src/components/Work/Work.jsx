@@ -1,16 +1,12 @@
 import React from "react";
 import "./work.css";
-import SDM from "../../images/sdm.png";
 import OrgonTalk from "../../images/orgon-talk.png";
-import FGM from "../../images/FGM.png";
 import InOncology from "../../images/InOncology.png";
 import Jardiance from "../../images/Jardiance.png";
-import Trajanta from "../../images/Trajanta.png";
 import Respimate from "../../images/Respimat.png";
 import squre from "../../images/square2_logo.svg";
 import GEL from "../../images/Gel.png";
 import Lectrona from "../../images/Lectrona.png"
-import Covid_19 from '../../images/Covid-19.svg'
 import WorkCard from "../work_card/WorkCard";
 import Digital from "../../images/Digital_maxin.svg"
 
@@ -25,19 +21,9 @@ const Work = () => {
       </div>
       <div className="work-container">
         <WorkCard
-          work_card_image={SDM}
-          work_title="SDM"
-          LinkTo="https://sdm.heartofwhatmatters.com/se/patient/"
-        />
-        <WorkCard
           work_card_image={OrgonTalk}
           work_title="Orgon Talk HF"
           LinkTo="https://www.organs-talk.com/"
-        />
-        <WorkCard
-          work_card_image={FGM}
-          work_title="FGM"
-          LinkTo="https://www.makingmorehealth.org/de/projekte/womentire"
         />
         <WorkCard
           work_card_image={InOncology}
@@ -48,11 +34,6 @@ const Work = () => {
           work_card_image={Jardiance}
           work_title="Jardiance T2D"
           LinkTo="https://pro.boehringer-ingelheim.com/products/jardiance/heart-failure/"
-        />
-        <WorkCard
-          work_card_image={Trajanta}
-          work_title="Trajanta Explore"
-          LinkTo="https://pro.boehringer-ingelheim.com/products/trajenta/explore-efficacy"
         />
         <WorkCard
           work_card_image={Respimate}
@@ -75,11 +56,6 @@ const Work = () => {
           LinkTo="https://pro.boehringer-ingelheim.com/funding/"
         />
          <WorkCard
-          work_card_image={Covid_19}
-          work_title="Covid-19"
-          LinkTo="https://patient.boehringer-ingelheim.com/this-is-living-today"
-        />
-         <WorkCard
           work_card_image={Digital}
           work_title="Digital Magazine"
           LinkTo="https://boehringer-ingelheim.se/prio/"
@@ -87,20 +63,11 @@ const Work = () => {
       </div>
       <div className="work-container" style={{display:'none'}}>
         <WorkCard
-          work_card_image={SDM}
-          work_title="SDM"
-          LinkTo="https://sdm.heartofwhatmatters.com/se/patient/"
-        />
-        <WorkCard
           work_card_image={OrgonTalk}
           work_title="Orgon Talk HF"
           LinkTo="https://www.organs-talk.com/"
         />
-        <WorkCard
-          work_card_image={FGM}
-          work_title="FGM"
-          LinkTo="https://www.makingmorehealth.org/de/projekte/womentire"
-        />
+     
         <WorkCard
           work_card_image={InOncology}
           work_title="InOncology"
@@ -111,11 +78,7 @@ const Work = () => {
           work_title="Jardiance T2D"
           LinkTo="https://pro.boehringer-ingelheim.com/products/jardiance/heart-failure/"
         />
-        <WorkCard
-          work_card_image={Trajanta}
-          work_title="Trajanta Explore"
-          LinkTo="https://pro.boehringer-ingelheim.com/products/trajenta/explore-efficacy"
-        />
+      
         <WorkCard
           work_card_image={Respimate}
           work_title="Respimate CZ"
