@@ -72,7 +72,7 @@ function App() {
               <About
                 title="Biography"
                 subtitle="About me"
-                desc={`I am professional web developer with 3+ years of experience. I'm from Karnataka. I'm happy to work on new challanges.`}
+                desc={`I am professional web developer with 4+ years of experience. I'm from Karnataka. I'm happy to work on new challanges.`}
                 name="Ambarish Patil"
                 age={getCurrentAge(1998)}
                 address="Gulbarga, Karnataka"
